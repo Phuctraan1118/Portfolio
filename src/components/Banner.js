@@ -79,14 +79,16 @@ export const Banner = () => {
                     Hello everyone, I'm studying Software Engineer at FPT
                     University HCM City.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <a href="https://facebook.com/ann18111/">
+                    <button onClick={() => console.log("connect")}>
+                      Let’s Connect <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={6} xl={3}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
